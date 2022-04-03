@@ -1,9 +1,9 @@
 let tableSizeX = 30;
 let tableSizeY = 16;
-nomberOfBombs = 99;
+let nomberOfBombs = 99;
 
-cellId = 1;
-rowId = 1;
+let cellId = 1;
+let rowId = 1;
 function createLine(className){
     var div = document.createElement('div');
     div.className = "row";
