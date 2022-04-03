@@ -212,7 +212,6 @@ addEventListener("mousedown",event=>{
         else {
             flagBackupValue[id] = event.target.innerHTML;
             event.target.innerHTML = "&#128681";
-            console.log("first change", flagBackupValue[id], " was changed to ", "🔎");
         }
     }
     wincheck();
